@@ -1,0 +1,348 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/ROBOTO-LIGHT.TTF");
+}
+
+@font-face {
+    font-family: "Colonna";
+    src: url("fonts/COLONNA.TTF");
+}
+
+* {
+    font-family: "Roboto";
+}
+
+.logo {
+    height: 100px;
+    background-image: url("resources/zukilogo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.title1 {
+    font-family: "Colonna";
+    font-size: 40px;
+}
+
+.title2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.foot_title {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.background {
+    background-image: url("resources/Food-delivery-logo-with-bike-man-on-transparent-background-PNG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main-background {
+    background-image: url("resources/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.label1 {
+    font-size: 16px;
+}
+
+.label2 {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.carticon {
+    height: 32px;
+    background-image: url("resources/carticon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wishicon {
+    height: 34px;
+    background-image: url("resources/wishicon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.profileicon {
+    height: 30px;
+    background-image: url("resources/usericon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.menudrop {
+    height: 32px;
+    background-image: url("resources/menudrop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hrbreak1 {
+    border-style: double;
+    border-color: black;
+    border-width: 2px;
+}
+
+.hrbreak2 {
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+}
+
+.logoimg {
+    height: 88px;
+    background-image: url("resources/zukilogo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.searchbtn {
+    height: 40px;
+}
+
+.posterimg1 {
+    height: 585px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.postercaption {
+    margin-bottom: 110px;
+}
+
+.postertitle {
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.postertxt {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.link2 {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+.link3 {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.link3:hover {
+    text-decoration: underline;
+}
+
+.specialicon {
+    height: 38px;
+    background-image: url("resources/special.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hometitle1 {
+    font-family: "Colonna";
+}
+
+.cardtopimg {
+    height: 28vh;
+}
+
+.footerclr {
+    background-color: rgb(94, 33, 33);
+}
+
+.homebody {
+    background-color: ivory;
+}
+
+.lbl1 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.pm1 {
+    height: 75px;
+    background-image: url("resources/payment_method_images/paypal_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm2 {
+    height: 75px;
+    background-image: url("resources/payment_method_images/visa_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm3 {
+    height: 75px;
+    background-image: url("resources/payment_method_images/american_express_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pm4 {
+    height: 75px;
+    background-image: url("resources/payment_method_images/mastercard_img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.img-thumbnail {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: blue;
+    border-style: solid;
+}
+
+.side {
+    float: left;
+    width: 15%;
+}
+
+.bar5 {
+    height: 25px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.fmenu {
+    font-family: "Colonna";
+}
+
+.emptyview {
+    height: 400px;
+    background-image: url("resources/watchlist.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.emptycart {
+    height: 250px;
+    background-image: url("resources/emptycart.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.cartqtytxt {
+    width: 100px;
+    outline: none;
+}
+
+.singleproduct {
+    padding-top: 65px;
+    padding-bottom: 145px;
+    background-color: #e5e5e5;
+    padding: 20px;
+}
+
+.product_qty {
+    width: 1000px;
+    height: 50px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    margin-right: 22px;
+    margin-bottom: 11px;
+}
+
+.qty-buttons {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30px;
+    border: solid 1px #e5e5e5;
+}
+
+.qty-inc,
+.qty-dec {
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+}
+
+.qty-inc {
+    padding-bottom: 2px;
+    justify-content: flex-end;
+    border-top-right-radius: 5px;
+}
+
+.qty-dec {
+    padding-top: 2px;
+    justify-content: flex-end;
+    border-bottom-right-radius: 5px;
+}
+
+.invoiceheaderimg {
+    height: 80px;
+    background-image: url("resources/zukilogo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.adminbody {
+    background-color: mistyrose;
+}
+
+.firstplace {
+    height: 90px;
+    background-image: url("resources/firstplace.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.phr {
+    background-color: maroon;
+    height: 50px;
+    color: maroon;
+}
+
+.sumdiv {
+    height: 320px;
+    overflow-y: scroll;
+}
