@@ -43,7 +43,7 @@ if (empty($fname)) {
     echo "Please enter your address line 02";
 } elseif (empty($city)) {
     echo "Please enter your city";
-} elseif ($district == "0") {
+} elseif ($district == "0") { 
     echo "Please select your district";
 } elseif (preg_match("/07[0,1,2,,4,5,6,7,8][0-9]+/", $mobile) == 0) {
     echo  "Invalid mobile number";
