@@ -7,7 +7,7 @@ require "connection.php";
 <html>
 
 <head>
-    <title>ZUKI|Admin|Add Category</title>
+    <title>ZUKI | Admin | Add Category</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="resources/zukilogo.svg" />
